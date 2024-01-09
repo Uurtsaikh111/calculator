@@ -1,14 +1,12 @@
 import "../style/header.css";
+import "../style/input.css"
+import Cards from "../components/Cards";
 
 export default function Header() {
   return (
     <div className="header">
-      <p>GOGO icon</p>
-      <p>Medee</p>
-      <p>gogo bulan</p>
-      <p>gogo bulan</p>
-      <p>gogo bulan</p>
-      <p>gogo bulan</p>
+     <input type="text" />
+     <Cards />
     </div>
   );
 }
